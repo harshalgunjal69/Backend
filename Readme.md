@@ -6,7 +6,7 @@
 [![Top language](https://img.shields.io/github/languages/top/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
 [![Language count](https://img.shields.io/github/languages/count/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
 [![Repo size](https://img.shields.io/github/repo-size/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
-[![License](https://img.shields.io/github/license/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
+[![License](https://img.shields.io/github/license/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
 
 <p align="center">
   <a href="#🎯-about">About</a> |
