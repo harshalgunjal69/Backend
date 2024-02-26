@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # Backend
 
-![[Image of the backend app]]  
+![backend app](https://assets-global.website-files.com/5c95072393140f36ecc22e60/61c44b463d7b3c13d91282e8_What-is-a-Mobile-App-Backend-.png)
 
 [![Top language](https://img.shields.io/github/languages/top/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
 [![Language count](https://img.shields.io/github/languages/count/harshalgunjal69/backend?color=56BEB8)](https://github.com/harshalgunjal69/backend)
@@ -85,3 +85,11 @@ $ yarn start
 
 # The server will initialize in http://localhost:3000
 ```
+
+## 📜 License
+```
+MIT License
+
+Copyright (c) 2024 Harshal Gunjal
+```
+
