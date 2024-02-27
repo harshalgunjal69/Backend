@@ -19,7 +19,7 @@ const registerUser = asyncHandler(async (req, res) => {
     // if success, send the response to the frontend
 
     const { fullName, email, username, password } = req.body;
-    // console.log(req.body);
+    console.log(req.body);
 
     if (
         [fullName, email, username, password].some(
@@ -37,7 +37,7 @@ const registerUser = asyncHandler(async (req, res) => {
         throw new ApiError(409, 'User already exists');
     }
 
-    // console.log(req.files);
+    console.log(req.files);
     
 
     const avatarLocalPath = req.files?.avatar[0]?.path;
@@ -51,7 +51,11 @@ const registerUser = asyncHandler(async (req, res) => {
     }
 
     const avatar = await uploadToCloudinary(avatarLocalPath);
-    const coverImage = coverImageLocalPath?await uploadToCloudinary(coverImageLocalPath):'';
+
+    let coverImage;
+    if(!(coverImageLocalPath === undefined)){
+        coverImage = await uploadToCloudinary(coverImageLocalPath);
+    }
 
     if (!avatar) {
         throw new ApiError(
