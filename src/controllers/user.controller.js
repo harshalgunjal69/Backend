@@ -41,7 +41,7 @@ const registerUser = asyncHandler(async (req, res) => {
     
 
     const avatarLocalPath = req.files?.avatar[0]?.path;
-    const coverImageLocalPath = req.files?.coverImage[0]?.path;
+    const coverImageLocalPath = req.files?.coverImage?.[0]?.path;
 
     if (!avatarLocalPath) {
         throw new ApiError(
@@ -51,7 +51,7 @@ const registerUser = asyncHandler(async (req, res) => {
     }
 
     const avatar = await uploadToCloudinary(avatarLocalPath);
-    const coverImage = await uploadToCloudinary(coverImageLocalPath);
+    const coverImage = coverImageLocalPath?await uploadToCloudinary(coverImageLocalPath):'';
 
     if (!avatar) {
         throw new ApiError(
