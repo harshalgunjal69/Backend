@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD033 -->
+
 # Backend
 
 ![backend app](https://assets-global.website-files.com/5c95072393140f36ecc22e60/61c44b463d7b3c13d91282e8_What-is-a-Mobile-App-Backend-.png)
@@ -24,25 +25,25 @@ Describe your project
 
 ## ✨ Features
 
-* Feature 1
-* Feature 2
-* Feature 3
+-   Feature 1
+-   Feature 2
+-   Feature 3
 
 ## 🚀 Technologies
 
 The following tools were used in this project:
 
-* [Express.js](https://expressjs.com/)
+-   [Express.js](https://expressjs.com/)
 
-* [Node.js](https://nodejs.org/en/)
+-   [Node.js](https://nodejs.org/en/)
 
-* [MongoDB](https://www.mongodb.com/)
+-   [MongoDB](https://www.mongodb.com/)
 
-* [Mongoose](https://mongoosejs.com/)
+-   [Mongoose](https://mongoosejs.com/)
 
-* [Cloudinary](https://cloudinary.com/)
+-   [Cloudinary](https://cloudinary.com/)
 
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## ✅ Requirements
 
@@ -87,9 +88,9 @@ $ yarn start
 ```
 
 ## 📜 License
+
 ```
 MIT License
 
 Copyright (c) 2024 Harshal Gunjal
 ```
-
