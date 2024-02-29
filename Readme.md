@@ -25,7 +25,7 @@
 Describe your project
 
 </section>
-<section id="feature">
+<section id="features">
 
 ## ✨ Features
 
