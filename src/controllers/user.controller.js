@@ -109,27 +109,33 @@ const loginUser = asyncHandler(async (req, res) => {
         }
     };
 
-    const { username, email, password } = req.body;
-
-    // console.log(req.body);    
+    const { email, username, password } = req.body;
+    // console.log(email);
+    // console.log(req.body);
 
     if (!username && !email) {
         throw new ApiError(400, 'Username or email is required');
     }
+
+    // Here is an alternative of above code based on logic discussed in video:
+    // if (!(username || email)) {
+    //     throw new ApiError(400, "username or email is required")
+
+    // }
 
     const user = await User.findOne({
         $or: [{ username }, { email }],
     });
 
     if (!user) {
-        return new ApiError(404, 'User does not exists');
+        throw new ApiError(404, 'User does not exist');
     }
 
     if (!password) {
         return new ApiError(400, 'Password is required');
     }
 
-    const isPasswordValid = user.isPasswordCorrect(password);
+    const isPasswordValid = await user.isPasswordCorrect(password);
 
     if (!isPasswordValid) {
         throw new ApiError(401, 'Invalid user credentials');
@@ -139,28 +145,33 @@ const loginUser = asyncHandler(async (req, res) => {
         user._id
     );
 
-    const loggedInUser = User.findById(user._id).select(
+    const loggedInUser = await User.findById(user._id).select(
         '-password -refreshToken'
     );
 
-    options = {
+    const options = {
         httpOnly: true,
         secure: true,
     };
-    
 
     return res
         .status(200)
-        .cookie('refreshToken', refreshToken, options)
         .cookie('accessToken', accessToken, options)
+        .cookie('refreshToken', refreshToken, options)
         .json(
             new ApiResponse(
                 200,
-                { user: loggedInUser, accessToken, refreshToken },
-                'User logged in successfully'
+                {
+                    user: loggedInUser,
+                    accessToken,
+                    refreshToken,
+                },
+                'User logged In Successfully'
             )
         );
 });
+
+
 
 const logoutUser = asyncHandler(async (req, res) => {
     // clear the cookies
@@ -175,15 +186,15 @@ const logoutUser = asyncHandler(async (req, res) => {
         }
     );
 
-    options = {
+    const options = {
         httpOnly: true,
         secure: true,
     };
 
     return res
         .status(201)
-        .clearCookie('accessToken')
-        .clearCookie('refreshToken')
+        .clearCookie('accessToken', options)
+        .clearCookie('refreshToken', options)
         .json(new ApiResponse(200, {}, 'User logged out successfully'));
 });
 

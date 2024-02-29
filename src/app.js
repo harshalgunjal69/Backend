@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+import bodyParser from 'body-parser';
 
 const app = express();
 
@@ -12,7 +13,7 @@ app.use(
 );
 app.use(express.json({ limit: '100mb' }));
 app.use(cookieParser());
-app.use(express.urlencoded({ extended: true, limit: '50kb' }));
+app.use(express.urlencoded({ extended: true, limit: '100mb' }));
 app.use(express.static('public'));
 
 // routes import
