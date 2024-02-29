@@ -82,7 +82,7 @@ $ cd backend
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize in http://localhost:3000
 ```

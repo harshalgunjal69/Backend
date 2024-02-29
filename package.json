@@ -9,7 +9,7 @@
         "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "harshalgunjal69 <hrshlgunjal@gmail.com>",
     "license": "ISC",
     "dependencies": {
         "bcrypt": "^5.1.1",
@@ -26,5 +26,6 @@
     },
     "devDependencies": {
         "prettier": "3.2.5"
-    }
+    },
+    "repository": "https://github.com/harshalgunjal69/Backend.git"
 }

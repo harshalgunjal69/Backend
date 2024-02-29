@@ -1,6 +1,6 @@
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { User } from '../models/user.model.js';
-import { ApiError } from '../utils/apiError.js';
+import { ApiError } from '../utils/ApiError.js';
 import { uploadToCloudinary } from '../utils/cloudinary.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 
@@ -110,7 +110,7 @@ const loginUser = asyncHandler(async (req, res) => {
     };
 
     const { username, email, password } = req.body;
-    if (!username && !email) {
+    if (!username) {
         throw new ApiError(400, 'Username or email is required.');
     }
 
@@ -119,11 +119,11 @@ const loginUser = asyncHandler(async (req, res) => {
     });
 
     if (!user) {
-        return ApiError(404, 'User does not exists');
+        return new ApiError(404, 'User does not exists');
     }
 
     if (!password) {
-        return ApiError(400, 'Password is required');
+        return new ApiError(400, 'Password is required');
     }
 
     const isPasswordValid = user.isPasswordCorrect(password);
@@ -144,6 +144,7 @@ const loginUser = asyncHandler(async (req, res) => {
         httpOnly: true,
         secure: true,
     };
+    
 
     return res
         .status(200)
