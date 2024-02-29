@@ -93,9 +93,9 @@ const loginUser = asyncHandler(async (req, res) => {
     // create an access token and a refresh token+
     const generateAccessAndRefreshTokens = async (userId) => {
         try {
-            user = User.findById(userId);
-            const accessToken = user.generateAccessToken();
-            const refreshToken = user.generateRefreshToken();
+            const user = await User.findById(userId);
+            const accessToken = await user.generateAccessToken();
+            const refreshToken = await user.generateRefreshToken();
 
             user.refreshToken = refreshToken;
             user.save({ validateBeforeSave: false });
@@ -132,7 +132,7 @@ const loginUser = asyncHandler(async (req, res) => {
     }
 
     if (!password) {
-        return new ApiError(400, 'Password is required');
+        throw new ApiError(400, 'Password is required');
     }
 
     const isPasswordValid = await user.isPasswordCorrect(password);
