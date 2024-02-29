@@ -19,17 +19,17 @@
   <a href="https://github.com/harshalgunjal69" target="_blank">Author</a>
 </p>
 
-## 🎯 About
+<h1 id="about"> 🎯 About </h1>
 
 Describe your project
 
-## ✨ Features
+<h1 id="features"> ✨ Features </h1>
 
 - Feature 1
 - Feature 2
 - Feature 3
 
-## 🚀 Technologies
+<h1 id="technologies"> 🚀 Technologies </h1>
 
 The following tools were used in this project:
 
@@ -45,11 +45,11 @@ The following tools were used in this project:
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## ✅ Requirements
+<h1  id="requirements"> ✅ Requirements </h1>
 
 Before starting, you need to have ✔️[Git](https://git-scm.com) and ✔️[Node](https://nodejs.org/en/) installed.
 
-## 🏁 Starting
+<h1 id="starting"> 🏁 Starting </h1>
 
 ### Using npm
 
@@ -87,7 +87,7 @@ $ yarn dev
 # The server will initialize in http://localhost:3000
 ```
 
-## 📜 License
+<h1 id="license"> 📜 License </h1>
 
 ```markdown
 MIT License
