@@ -1,13 +1,13 @@
 <!-- markdownlint-disable MD033 -->
 
-# Backend
+# vdeohub-backend
 
-![backend app](https://assets-global.website-files.com/5c95072393140f36ecc22e60/61c44b463d7b3c13d91282e8_What-is-a-Mobile-App-Backend-.png)
+![vdeohub-backend app](https://assets-global.website-files.com/5c95072393140f36ecc22e60/61c44b463d7b3c13d91282e8_What-is-a-Mobile-App-Backend-.png)
 
-[![Top language](https://img.shields.io/github/languages/top/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
-[![Language count](https://img.shields.io/github/languages/count/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
-[![Repo size](https://img.shields.io/github/repo-size/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
-[![License](https://img.shields.io/github/license/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
+[![Top language](https://img.shields.io/github/languages/top/harshalgunjal69/vdeohub-backend?color=56BEB9)](https://github.com/harshalgunjal69/vdeohub-backend)
+[![Language count](https://img.shields.io/github/languages/count/harshalgunjal69/vdeohub-backend?color=56BEB9)](https://github.com/harshalgunjal69/vdeohub-backend)
+[![Repo size](https://img.shields.io/github/repo-size/harshalgunjal69/vdeohub-backend?color=56BEB9)](https://github.com/harshalgunjal69/vdeohub-backend)
+[![License](https://img.shields.io/github/license/harshalgunjal69/vdeohub-backend?color=56BEB9)](https://github.com/harshalgunjal69/vdeohub-backend)
 
 <p align="center">
   <a href="#about">About</a> |
@@ -71,10 +71,10 @@ Before starting, you need to have
 
 ```bash
 # Clone this project
-$ git clone https://github.com/harshalgunjal69/Backend.git
+$ git clone https://github.com/harshalgunjal69/vdeohub-backend.git
 
 # Access
-$ cd backend
+$ cd vdeohub-backend
 
 # Install dependencies
 $ npm i
@@ -89,13 +89,16 @@ $ npm run dev
 
 ```bash
 # Clone this project
-$ git clone https://github.com/harshalgunjal69/Backend.git
+$ git clone https://github.com/harshalgunjal69/vdeohub-backend.git
 
 # Access
-$ cd backend
+$ cd vdeohub-backend
+
+# Import dependencies
+$ yarn import
 
 # Install dependencies
-$ yarn
+$ yarn install
 
 # Run the project
 $ yarn dev
