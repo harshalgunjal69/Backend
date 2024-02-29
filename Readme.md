@@ -22,16 +22,17 @@
 
 ## 🎯 About
 
-Describe your project
+Videohub's robust backend seamlessly handles real-time video sharing, ensuring a smooth and engaging experience for creators and viewers alike. It enables instant uploads, secure streaming, and efficient content delivery, allowing you to effortlessly share your vision with the world. The backend also facilitates real-time interactions through comments, likes, and creator updates and much more, fostering a vibrant and connected community around your content.
 
 </section>
 <section id="features">
 
 ## ✨ Features
 
--   Feature 1
--   Feature 2
--   Feature 3
+- Share: Upload and broadcast your videos instantly.
+- Subscribe: Follow your favorite creators and never miss a beat.
+- Engage: Like, comment, and discuss in real-time.
+- Connect: Creators can share updates and interact directly with their audience through Tweets.
 
 </section>
 <section id="technologies">
@@ -40,17 +41,17 @@ Describe your project
 
 The following tools were used in this project:
 
--   [Express.js](https://expressjs.com/)
+- [Express.js](https://expressjs.com/)
 
--   [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/)
 
--   [MongoDB](https://www.mongodb.com/)
+- [MongoDB](https://www.mongodb.com/)
 
--   [Mongoose](https://mongoosejs.com/)
+- [Mongoose](https://mongoosejs.com/)
 
--   [Cloudinary](https://cloudinary.com/)
+- [Cloudinary](https://cloudinary.com/)
 
--   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </section>
 <section id="requirements">
@@ -59,8 +60,8 @@ The following tools were used in this project:
 
 Before starting, you need to have
 
--   ✔️[Git](https://git-scm.com) and
--   ✔️[Node](https://nodejs.org/en/) installed.
+- ✔️[Git](https://git-scm.com) and
+- ✔️[Node](https://nodejs.org/en/) installed.
 
 </section>
 <section id="starting">
