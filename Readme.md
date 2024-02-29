@@ -47,7 +47,9 @@ The following tools were used in this project:
 
 ## <section id="requirements">✅ Requirements</section>
 
-Before starting, you need to have ✔️[Git](https://git-scm.com) and ✔️[Node](https://nodejs.org/en/) installed.
+Before starting, you need to have \
+✔️[Git](https://git-scm.com) and \
+✔️[Node](https://nodejs.org/en/) installed.
 
 ## <section id="starting">🏁 Starting</section>
 
