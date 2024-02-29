@@ -15,7 +15,7 @@
   <a href="#🚀-technologies">Technologies</a> |
   <a href="#✅-requirements">Requirements</a> |
   <a href="#🏁-starting">Starting</a> |
-  <a href="#license">License</a> |
+  <a href="#📜-license">License</a> |
   <a href="https://github.com/harshalgunjal69" target="_blank">Author</a>
 </p>
 
@@ -25,25 +25,25 @@ Describe your project
 
 ## ✨ Features
 
--   Feature 1
--   Feature 2
--   Feature 3
+- Feature 1
+- Feature 2
+- Feature 3
 
 ## 🚀 Technologies
 
 The following tools were used in this project:
 
--   [Express.js](https://expressjs.com/)
+- [Express.js](https://expressjs.com/)
 
--   [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/)
 
--   [MongoDB](https://www.mongodb.com/)
+- [MongoDB](https://www.mongodb.com/)
 
--   [Mongoose](https://mongoosejs.com/)
+- [Mongoose](https://mongoosejs.com/)
 
--   [Cloudinary](https://cloudinary.com/)
+- [Cloudinary](https://cloudinary.com/)
 
--   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## ✅ Requirements
 
@@ -89,7 +89,7 @@ $ yarn dev
 
 ## 📜 License
 
-```
+```markdown
 MIT License
 
 Copyright (c) 2024 Harshal Gunjal
