@@ -18,18 +18,25 @@
   <a href="#license">License</a> |
   <a href="https://github.com/harshalgunjal69" target="_blank">Author</a>
 </p>
+<section id="about">
 
-## <section id="about">🎯 About</section>
+## 🎯 About
 
 Describe your project
 
-## <section id="faeture">✨ Features</section>
+</section>
+<section id="faeture">
+
+## ✨ Features
 
 - Feature 1
 - Feature 2
 - Feature 3
 
-## <section id="technologies">🚀 Technologies</section>
+</section>
+<section id="technologies">
+
+## 🚀 Technologies
 
 The following tools were used in this project:
 
@@ -45,13 +52,20 @@ The following tools were used in this project:
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## <section id="requirements">✅ Requirements</section>
+</section>
+<section id="requirements">
 
-Before starting, you need to have \
-✔️[Git](https://git-scm.com) and \
-✔️[Node](https://nodejs.org/en/) installed.
+## ✅ Requirements</section>
 
-## <section id="starting">🏁 Starting</section>
+Before starting, you need to have
+
+- ✔️[Git](https://git-scm.com) and
+- ✔️[Node](https://nodejs.org/en/) installed.
+
+</section>
+<section id="starting">
+
+## 🏁 Starting
 
 ### Using npm
 
@@ -89,10 +103,15 @@ $ yarn dev
 # The server will initialize in http://localhost:3000
 ```
 
-## <section id="license">📜 License</section>
+</section>
+<section id="license">
+
+## 📜 License
 
 ```markdown
 MIT License
 
 Copyright (c) 2024 Harshal Gunjal
 ```
+
+</section>
