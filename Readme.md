@@ -29,9 +29,9 @@ Describe your project
 
 ## ✨ Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+-   Feature 1
+-   Feature 2
+-   Feature 3
 
 </section>
 <section id="technologies">
@@ -40,17 +40,17 @@ Describe your project
 
 The following tools were used in this project:
 
-- [Express.js](https://expressjs.com/)
+-   [Express.js](https://expressjs.com/)
 
-- [Node.js](https://nodejs.org/en/)
+-   [Node.js](https://nodejs.org/en/)
 
-- [MongoDB](https://www.mongodb.com/)
+-   [MongoDB](https://www.mongodb.com/)
 
-- [Mongoose](https://mongoosejs.com/)
+-   [Mongoose](https://mongoosejs.com/)
 
-- [Cloudinary](https://cloudinary.com/)
+-   [Cloudinary](https://cloudinary.com/)
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </section>
 <section id="requirements">
@@ -59,8 +59,8 @@ The following tools were used in this project:
 
 Before starting, you need to have
 
-- ✔️[Git](https://git-scm.com) and
-- ✔️[Node](https://nodejs.org/en/) installed.
+-   ✔️[Git](https://git-scm.com) and
+-   ✔️[Node](https://nodejs.org/en/) installed.
 
 </section>
 <section id="starting">

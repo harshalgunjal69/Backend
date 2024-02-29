@@ -171,8 +171,6 @@ const loginUser = asyncHandler(async (req, res) => {
         );
 });
 
-
-
 const logoutUser = asyncHandler(async (req, res) => {
     // clear the cookies
     // send a response to frontend
