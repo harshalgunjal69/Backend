@@ -10,12 +10,12 @@
 [![License](https://img.shields.io/github/license/harshalgunjal69/backend?color=56BEB9)](https://github.com/harshalgunjal69/backend)
 
 <p align="center">
-  <a href="#🎯-about">About</a> |
-  <a href="#✨-features">Features</a> |
-  <a href="#🚀-technologies">Technologies</a> |
-  <a href="#✅-requirements">Requirements</a> |
-  <a href="#🏁-starting">Starting</a> |
-  <a href="#📜-license">License</a> |
+  <a href="#about">About</a> |
+  <a href="#features">Features</a> |
+  <a href="#technologies">Technologies</a> |
+  <a href="#requirements">Requirements</a> |
+  <a href="#starting">Starting</a> |
+  <a href="#license">License</a> |
   <a href="https://github.com/harshalgunjal69" target="_blank">Author</a>
 </p>
 
