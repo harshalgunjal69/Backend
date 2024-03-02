@@ -4,7 +4,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copying package.json file
-COPY package.json .
+COPY package*.json .
 
 # Installing node modules
 RUN npm install
@@ -12,11 +12,8 @@ RUN npm install
 # Copying the source code
 COPY . .
 
-# Building the source code
-RUN npm run build
-
 # Exposing the port
-EXPOSE 8080
+EXPOSE 8000
 
 # Running the app
-CMD [ "npm", "run", "preview" ]
+CMD [ "npm", "run", "start" ]

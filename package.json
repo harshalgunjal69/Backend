@@ -5,15 +5,14 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "build": "vite build --outDir dist --minify --optimize",
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
         "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
     },
     "keywords": [],
     "author": "harshalgunjal69 <hrshlgunjal@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "bcrypt": "^5.1.1",
+        "bcryptjs": "^2.4.3",
         "cloudinary": "^2.0.1",
         "cookie-parser": "^1.4.6",
         "cors": "^2.8.5",
