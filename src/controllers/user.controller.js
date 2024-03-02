@@ -7,7 +7,7 @@ import { ApiResponse } from '../utils/ApiResponse.js';
 const registerUser = asyncHandler(async (req, res) => {
     // get user details from frontend
     // validate the user details - if all the fields are present or not
-    // check if user already exixts in database - username, email
+    // check if user already exists in database - username, email
     // if user exists send error response to frontend
     // check if the user has uploaded a profile picture/avatar
     // if yes, upload the image to cloudinary
